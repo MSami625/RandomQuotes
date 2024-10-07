@@ -25,7 +25,7 @@
     border: 2px solid #8d8d8d;
     padding: 35px 25px;
     margin-bottom: 20px;
-    box-shadow: rgba(255, 255, 255, 0.3) 0px 0px 0px 5px;
+    box-shadow: rgba(66, 132, 240, 0.3) 0px 0px 0px 5px;
   }
   #quote {
     text-align: center;
@@ -52,7 +52,7 @@ button {
     width:15rem;
     margin: 0 auto;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 15px;
   }
 
   button:hover{
