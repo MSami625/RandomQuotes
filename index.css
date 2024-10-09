@@ -1,70 +1,87 @@
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 25px;
-    font-weight: 500;
-    color: white;
-    background-color: black;
-  }
-  
-  .container {
-    margin: 25vh auto;
-    width: 800px;
-    display: flex;
-    flex-direction: column;
-    
-  }
-  
-  .quote-box {
-    border: 2px solid #8d8d8d;
-    padding: 35px 25px;
-    margin-bottom: 20px;
-    box-shadow: rgba(66, 132, 240, 0.3) 0px 0px 0px 5px;
-  }
-  #quote {
-    text-align: center;
-    font-size: larger;
-  }
-  
-  #author {
-    float: right;
-    color: #cdcccf;
-    font-weight: bold;  
-    font-style: italic;
-    margin-top: 12px;
-  }
-  
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+  background-color: black;
+}
+
+.container {
+  margin: 25vh auto;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote-box {
+  border: 2px solid #8d8d8d;
+  padding: 35px 25px;
+  margin-bottom: 20px;
+  box-shadow: rgba(66, 132, 240, 0.3) 0px 0px 0px 5px;
+  text-align: center;
+}
+
+#quote {
+  font-size: larger;
+}
+
+#author {
+  display: block;
+  margin-top: 12px;
+  color: #cdcccf;
+  font-weight: bold;
+  font-style: italic;
+}
+
 button {
-    background: transparent;
-    border: 1px solid rgb(255, 255, 255);
-    color: #ffffff;
-    cursor: pointer;
-    font: inherit;
-    font-weight: 500;
-    position: relative;
-    width:15rem;
-    margin: 0 auto;
-    padding: 5px;
-    border-radius: 15px;
-  }
+  background: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  color: #ffffff;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 500;
+  position: relative;
+  width: 15rem;
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 15px;
+}
 
-  button:hover{
-    background-color: #202020;
-  }
-  
-  
+button:hover {
+  background-color: #202020;
+}
 
-  @media only screen and (max-width:700px){
-    .container{
+/* Share buttons */
+.share-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.share-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.share-btn:hover {
+  background-color: #0056b3;
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
       font-size: 18px;
       margin: 30% auto;
-      width:80%;
-    }
+      width: 80%;
   }
+}

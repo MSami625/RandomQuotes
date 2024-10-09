@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qoute Generator</title>
+    <title>Quote Generator</title>
     <link rel="stylesheet" href="index.css">
 </head>
 
@@ -15,12 +15,17 @@
 
     <div class="container">
         <div class="quote-box">
-          <p id="quote">"Loading..."</p>
-          <small id="author">- Author</small>
+            <p id="quote">"Loading..."</p>
+            <small id="author">- Author</small>
         </div>
         <button id="btn">New Quote</button>
-      </div>
 
-      <script src="index.js"></script>
+        <div class="share-buttons">
+            <button id="copyBtn" class="share-btn">Copy Quote</button>
+            <button id="tweetBtn" class="share-btn">Tweet Quote</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
 </body>
 </html>
